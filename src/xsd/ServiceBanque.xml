@@ -3,4 +3,14 @@
   <tns:conversion>
     <tns:montant>0.0</tns:montant>
   </tns:conversion>
+  <tns:getCompte>
+    <tns:code>0</tns:code>
+    <tns:solde>0.0</tns:solde>
+    <tns:DateCreation>2001-01-01</tns:DateCreation>
+  </tns:getCompte>
+  <tns:getComptes>
+    <tns:code>0</tns:code>
+    <tns:solde>0.0</tns:solde>
+    <tns:DateCreation>2001-01-01</tns:DateCreation>
+  </tns:getComptes>
 </tns:BanqueService>
