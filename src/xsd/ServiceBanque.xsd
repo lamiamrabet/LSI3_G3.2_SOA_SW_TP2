@@ -7,12 +7,21 @@
 		<complexType>
 			<sequence>
 				<element name="conversion" type="tns:conversiontype"></element>
+				<element name="getCompte" type="tns:Compte"></element>
+				<element name="getComptes" type="tns:Compte" minOccurs="1" maxOccurs="unbounded"></element>
 			</sequence>
 		</complexType>
 	</element>
 	<complexType name="conversiontype">
 		<sequence>
 			<element name="montant" type="double"></element>
+		</sequence>
+	</complexType>
+	<complexType name="Compte">
+		<sequence>
+			<element name="code" type="int"></element>
+			<element name="solde" type="double"></element>
+			<element name="DateCreation" type="date"></element>
 		</sequence>
 	</complexType>
 </schema>
